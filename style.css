@@ -69,6 +69,36 @@ h6 {
   isolation: isolate;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,500;0,800;1,700&display=swap");
+
+:root {
+  --results-bg-gradient-light: hsl(252, 100%, 67%);
+  --results-bg-gradient-dark: hsl(241, 81%, 54%);
+  --results-circle-light: hsla(256, 72%, 46%, 1);
+  --results-circle-text: hsla(241, 72%, 46%, 0);
+  --neutral-dark-blue: hsl(224, 30%, 27%);
+  --bg-body: hsl(241, 100%, 89%);
+  --neutral-pale-blue: hsl(221, 100%, 96%);
+
+  /* Accents */
+
+  --accent-red: hsl(0, 100%, 67%);
+  --accent-yellow: hsl(39, 100%, 56%);
+  --accent-green: hsl(166, 100%, 37%);
+  --accent-blue: hsl(234, 85%, 45%);
+
+  /* Font-Families */
+  --ff-main: "Hanken Grotesk", sans-serif;
+  --ff-body: var(--ff-main);
+  /* Font-sizes */
+  --fs--regular: 1rem;
+  --fs--heading: 3rem;
+  --fs--subheading: 2rem;
+  --fs--mobile: 1.125rem;
+
+  /* spacers */
+}
+
 body {
   height: 100%;
 }
