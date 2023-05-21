@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/images/favicon-32x32.png"
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
     />
 
     <title>Frontend Mentor | Results summary component</title>
@@ -23,42 +23,63 @@
         <section class="results">
           <h2>Your Result</h2>
           <div class="result-box">
-            <h1>76 <span>of 100</span></h1>
+            <h1><span class="results-score">76</span> of 100</h1>
           </div>
+          <div class="circle"></div>
           <div class="result-text">
             <h3 class="result-text__heading">Great</h3>
-            <div class="result-text__p">
+            <p class="result-text__p">
               You scored higher than 65% of the people who have taken these
               tests.
-            </div>
+            </p>
           </div>
         </section>
-        <section class="summary">
+        <div class="summary-container">
           <h2>Summary</h2>
+          <div class="summary">
           <div class="row">
-            <img src="" alt="" />
+            <div class="about">
+              <img src="assets/images/icon-reaction.svg" alt="" />
+              <span class="reaction">Reaction</span>
+            </div>
             <div class="summary-results">
-              <p><span class="summary-results__bold">80</span> / 100</p>
+              <span class="summary-results__bold">80</span>
+              <p>/100</p>
             </div>
           </div>
           <div class="row">
-            <img src="" alt="" /> <span></span>
+            <div class="about">
+              <img src="assets/images/icon-memory.svg" alt="" />
+              <span class="memory">Memory</span>
+            </div>
             <div class="summary-results">
-              <p><span class="summary-results__bold"> 92</span> / 100</p>
+              <span class="summary-results__bold"> 92</span>
+              <p>/100</p>
             </div>
           </div>
           <div class="row">
-            <img src="" alt="" /> <span></span>
+            <div class="about">
+              <img src="assets/images/icon-verbal.svg" alt="" />
+              <span class="verbal">Verbal</span>
+            </div>
             <div class="summary-results">
-              <p><span class="summary-results__bold">61</span> / 100</p>
+              <span class="summary-results__bold">61</span>
+              <p>/100</p>
             </div>
           </div>
           <div class="row">
-            <img src="" alt="" /> <span></span>
+            <div class="about">
+              <img src="assets/images/icon-visual.svg" alt="" />
+              <span class="visual">Visual</span>
+            </div>
             <div class="summary-results">
-              <p><span class="summary-results__bold">72</span> / 100</p>
+              <span class="summary-results__bold">72</span>
+              <p>/100</p>
             </div>
           </div>
+        </div>
+
+          <button class="btn">Continue</button>
         </section>
       </div>
     </main>
