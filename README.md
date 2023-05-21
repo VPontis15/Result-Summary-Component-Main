@@ -9,6 +9,16 @@ Mobile Preview:
 ![image](https://github.com/VPontis15/Result-Summary-Component-Main/assets/94546957/ce82c940-5692-4416-ba90-e8f0f28ae6a4)
 
 
+
+
+
+
+
+
+
+
+
+
 Build wwith: 
 - Semantic HTML5 markup
 - CSS custom properties
