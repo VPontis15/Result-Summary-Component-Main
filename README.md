@@ -7,7 +7,7 @@ A Frontend Mentor Challenge
 ![image](https://github.com/VPontis15/Result-Summary-Component-Main/assets/94546957/7a659805-2f34-4f84-bcd2-63b6e1d89b50)
       
  
-Build wwith: 
+Build with: 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
